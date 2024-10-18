@@ -648,11 +648,13 @@ section {
 .interests .icon-box h3 {
   font-weight: 700;
   margin: 0;
-  padding: 0;
+/*   padding: 0; */
   line-height: 1;
   font-size: 16px;
   color: #1dc030;
   text-align: center;
+  align-items: center;
+	
 
 }
 

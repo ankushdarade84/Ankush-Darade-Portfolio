@@ -1,10 +1,3 @@
-/**
-* Template Name: MyResume
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -35,7 +28,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -98,7 +91,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -116,7 +109,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the URL
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -155,10 +148,10 @@
   /**
    * Skills animation
    */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
+  let skillsContent = select('.skills-content');
+  if (skillsContent) {
     new Waypoint({
-      element: skilsContent,
+      element: skillsContent,
       offset: '80%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
@@ -170,7 +163,7 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Portfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -196,18 +189,17 @@
         });
       }, true);
     }
-
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
   /**
-   * Initiate portfolio details lightbox 
+   * Initiate portfolio details lightbox
    */
   const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
@@ -263,8 +255,49 @@
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate Pure Counter
    */
   new PureCounter();
 
-})()
+  /**
+   * Fetch and display movie content
+   */
+  document.addEventListener("DOMContentLoaded", () => {
+    loadContent();
+
+  });
+
+  function loadContent() {
+    fetch('assets/img/movie.json')
+        .then(response => response.json())
+        .then(data => {
+            const contentSection = document.querySelector('.portfolio-containerss');
+            contentSection.innerHTML = '';
+            data.forEach(item => {
+                const movieCard = document.createElement('div');
+                movieCard.classList.add('movie-card');
+                movieCard.innerHTML = `
+                    <img src="${item.image}" alt="${item.title}">
+                    <br>
+                    <h5>${item.title}</h5>
+                    <p>${item.description}</p>
+                    <div class="icon-overlay">
+                        <a href="${item.link1}" target="_blank">
+                          <i class="bx bxl-github"></i>
+                        </a>
+                          <a href="${item.link2}" target="_blank">
+                          <i class="fa-solid fa-eye"></i>
+                          </a>
+                    </div>
+                `;
+                contentSection.appendChild(movieCard);
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+}
+
+
+
+})();
+
+

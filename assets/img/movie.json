@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/portfolio.jpg",
+    "link1": "https://github.com/ankushdarade84/Ankush-Darade-Portfolio",
+    "link2": "https://ankush-darade.netlify.app",
+    "category": "software"
+  },
+  
+  {
+    "title": "Angular Register Page",
+    "description": "Software Project - Dyanamic Angular | JSON",
+    "image": "assets/img/portfolio/Angular-crud.png",
+    "link1": "https://github.com/ankushdarade84/Nimap-Angular-Regi-page",
+    "link2": "https://angular-regi-page.vercel.app/",
+    "category": "software"
+  },
+  
+  {
+    "title": "Mobile Repair Center",
+    "description": "Software Project - Dyanamic React | JAVA | MySQL",
+    "image": "assets/img/portfolio/mobile-reparing.jpg",
+    "link1": "https://github.com/ankushdarade84/MobilePhoneReparing",
+    "link2": "https://github.com/ankushdarade84/MobilePhoneReparing",
+    "category": "software"
+  },  
+  {
+    "title": "React Register Page",
+    "description": "Software Project - Dyanamic React | JAVA | MySQL",
+    "image": "assets/img/portfolio/react-regipage.jpg",
+    "link1": "https://github.com/ankushdarade84/GovermentRegistartionForm",
+    "link2": "https://github.com/ankushdarade84/GovermentRegistartionForm",
+    "category": "software"
+  },
+
+  {
+    "title": "To Do List",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/To-do-list.png",
+    "link1": "https://github.com/ankushdarade84/To-do-List",
+    "link2": "https://todo-save.netlify.app/",
+    "category": "software"
+  },
+  {
+    "title": "OTT Platform ",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/ott.png",
+    "link1": "https://github.com/ankushdarade84/OTT-grid-using-html-css-js",
+    "link2": "https://ott-platfom.netlify.app/",
+    "category": "software"
+  },
+  {
+    "title": "Employee List Show ",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/Employee-list.png",
+    "link1": "https://github.com/ankushdarade84/Employee-Team-List-web",
+    "link2": "https://employee-teamlist.netlify.app/",
+    "category": "software"
+  },
+  {
+    "title": "Wedding Invitation",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/Wedding-site.png",
+    "link1": "https://github.com/ankushdarade84/wedding-invitation-page",
+    "link2": "https://madhuri-weds-rahul.netlify.app/",
+    "category": "software"
+  },
+
+  {
+    "title": "Admin Dashboard",
+    "description": "Software Project - Static Webpage",
+    "image": "assets/img/portfolio/admin-dashboard.png",
+    "link1": "https://github.com/ankushdarade84/Grid-Dashbord",
+    "link2": "https://dashbord-task.netlify.app/",
+    "category": "software"
+  },
+
+  {
+    "title": "Project Information",
+    "description": "Software Project - Static Website",
+    "image": "assets/img/portfolio/Project-Info.png",
+    "link1": "https://blind-deaf-project.netlify.app/",
+    "link2": "https://blind-deaf-project.netlify.app/",
+    "category": "software"
+  },
+
+
+  {
+    "title": "Advance Blind Deaf Communication System.",
+    "description": "Software & Hardware - Python Based Project",
+    "image": "assets/img/portfolio/blind-deaf.jpg",
+    "link1": "https://github.com/ankushdarade84/Advance-Blind-Deaf-Communication-System",
+    "link2": "https://blind-deaf-project.netlify.app/",
+    "category": "hardware"
+  },
+
+  {
+    "title": "Blind Deaf Communication System",
+    "description": "Software & Hardware - C Arduino Project",
+    "image": "assets/img/portfolio/blind-deaf-dip.jpg",
+    "link1": "https://github.com/ankushdarade84/Blind-Deaf-Communication-System",
+    "link2": "https://github.com/ankushdarade84/Blind-Deaf-Communication-System",
+    "category": "hardware"
+  },
+
+  {
+    "title": "Mini Oscilloscope & Function Generator",
+    "description": "Software & Hardware - C Arduino Project",
+    "image": "assets/img/portfolio/mini-osc-fun.jpg",
+    "link1": "https://github.com/ankushdarade84/Mini-Oscilloscope-And-Function-Generator",
+    "link2": "https://github.com/ankushdarade84/Mini-Oscilloscope-And-Function-Generator",
+    "category": "hardware"
+  },
+  {
+    "title": "Smart Storage System for Onion",
+    "description": "Software & Hardware - Embeded C PIC Project",
+    "image": "assets/img/portfolio/Onion-manage.jpg",
+    "link1": "https://github.com/ankushdarade84/Smart-Storage-System-For-Onion",
+    "link2": "https://github.com/ankushdarade84/Smart-Storage-System-For-Onion",
+    "category": "hardware"
+  },
+
+  {
+    "title": "Smart Green House System",
+    "description": "Software & Hardware - C Arduino Project",
+    "image": "assets/img/portfolio/green-house.jpg",
+    "link1": "https://github.com/ankushdarade84/Smart-Green-House-System",
+    "link2": "https://github.com/ankushdarade84/Smart-Green-House-System",
+    "category": "hardware"
+  },
+  {
+    "title": "Wireless Notice Display",
+    "description": "Software & Hardware - C Arduino Project",
+    "image": "assets/img/portfolio/green-house.jpg",
+    "link1": "https://github.com/ankushdarade84/Wireless-Notice-Display",
+    "link2": "https://github.com/ankushdarade84/Wireless-Notice-Display",
+    "category": "hardware"
+  }, 
+  {
+    "title": "JAVA Spring Boot CRUD",
+    "description": "Software Project - JAVA Springboot CRUD Test",
+    "image": "assets/img/portfolio/Spring-CRUD.png",
+    "link1": "https://github.com/ankushdarade84/Nimap-Task-Spring-Boot-CRUD",
+    "link2": "https://github.com/ankushdarade84/Nimap-Task-Spring-Boot-CRUD",
+    "category": "hardware"
+  }
+
+  
+
+
+]
